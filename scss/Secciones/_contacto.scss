@@ -1,0 +1,33 @@
+.bodyBG {
+    @include bodyContainer();
+}
+
+section {
+    .formContainer {
+        div {
+            .content {
+                padding-top: 5vh;
+                padding-bottom: 10vh;
+            }
+            div {
+                div {
+                    div {
+                        .tituloContacto {
+                            color: $blanco;
+                        }
+                    }
+                    .formContacto {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding-bottom: 2vh;
+
+                        .formCostumeContacto {
+                            padding-top: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

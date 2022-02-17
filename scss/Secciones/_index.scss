@@ -1,0 +1,158 @@
+.bodyBG {
+    @include bodyContainer();
+}
+
+header {
+    .navbar {
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
+    }
+    
+    .navbar-custom {
+        background-color: $azul;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: $blanco;
+        font-weight: 450;
+        padding-bottom: auto;
+        padding-top: auto;
+        &:hover {
+            color: $azul_oscuro;
+            text-shadow: 1.5px 1px #476072;
+        }
+    }
+}
+
+main {
+    .homeTitle {
+        .homeTextContainer {
+            display: flex;
+            height: 75vh;
+            background-color: rgba(210,230,230,0.6);
+            align-items: center;
+            justify-content: center;
+        }
+        div {
+            .textoHome {
+                padding-left: 15vh;
+                padding-right: 15vh;
+                font-weight: bold;
+                color: $azul_oscuro;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    h2 {
+        @extend %generalTitulos;
+    }
+
+    p {
+        @extend %generalParrafos;
+    }
+
+    .nosotrosBG {
+        background-color: $azul_oscuro;
+        .nosotrosSection {  
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color:$blanco;
+        }
+        
+        .nosotrosText {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+
+    .iconosSection {
+        background-color: $azul_oscuro;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        .parrafoIconos {
+            color:$blanco;
+        }
+    }
+
+    .serviciosBG {
+        background-color: $azul_oscuro;
+        .serviciosSection {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color:$blanco;
+        }
+        
+        .serviciosText {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        
+        .serviciosLista {
+            padding: 35px 20px;
+            text-align: center;
+            color: $blanco;
+            list-style: none;
+            li {
+                padding: 2px 0px;
+            }
+        }    
+    }
+    
+
+    .logosBG {
+        background-color: $azul_oscuro;
+        .logoItem {
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+        
+        .LogosSection {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+}
+
+footer {
+    .footerSection {
+        color: $blanco;
+        background-color: $azul_claro;
+        .footerItems {
+            padding-top: 35px;
+            padding-bottom: 0px;
+            .contactoLista {
+                padding: 35px 20px;
+                text-align: center;
+                color: $blanco;
+                list-style: none;
+            }
+            .contactoLista > li {
+                padding: 2px 0px;
+            } 
+            .redesLista {
+                padding: 35px 20px;
+                text-align: center;
+                color: $blanco;
+                list-style: none;
+            }
+            .redesLista > li {
+                padding: 2px 0px;
+            } 
+            .redesItem a {
+                text-decoration: none;
+                color: $blanco;
+                &:hover {
+                    color: $azul_oscuro;
+                    text-shadow: 1.5px 1px #476072;
+                }
+            }
+            .redesItem {
+                padding-bottom: 5px;
+            }
+        }
+    }
+}

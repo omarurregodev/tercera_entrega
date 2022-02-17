@@ -1,0 +1,10 @@
+$coloresTexto: (
+    titleG: $blanco,
+    titleM: $blanco_footer
+);
+
+@each $nomVar, $color in $coloresTexto{
+    .#{$nomVar}{
+        color: $color;
+    }
+}

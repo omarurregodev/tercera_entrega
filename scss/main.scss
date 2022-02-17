@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+
+/* VARIABLES */
+@import './Variables/colores';
+@import './Variables/extend';
+@import './Variables/mixin';
+@import './Variables/maps';
+/* PAGINAS */
+@import './Secciones/index';
+@import './Secciones/trabajaconnosotros';
+@import './Secciones/contacto';

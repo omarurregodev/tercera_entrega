@@ -1,0 +1,38 @@
+.bodyBG {
+    @include bodyContainer();
+}
+
+section {
+    .formContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        background-color: rgba(0,0,0,0.6);
+        padding-top: 15vh;
+        padding-bottom: 10vh;
+
+        div {
+            .centradoForm {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            div {
+                .tituloTrabaja {
+                    color: $blanco;
+                }
+                .formCostume {
+                    padding-top: 20px;
+
+                    div {
+                        .form-label {
+                            color: $blanco;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url('../img/index_img.jpg');
+}
+
+.navbar {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
+}
+
+.navbar-custom {
+    background-color: #548CA8;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #EEEEEE;
+    font-weight: 450;
+    padding-bottom: auto;
+    padding-top: auto;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #334257;
+    text-shadow: 1.5px 1px #476072;
+}
+
+.homeTextContainer {
+    display: flex;
+    height: 75vh;
+    background-color: rgba(210,230,230,0.6);
+    align-items: center;
+    justify-content: center;
+}
+
+.homeTextContainer h2 {
+    padding-left: 15vh;
+    padding-right: 15vh;
+    font-weight: bold;
+    color: #334257;
+    margin: 0 auto;
+}
+
+.nosotrosBG {
+    background-color: #334257;
+}
+
+.nosotrosSection {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#EEEEEE;
+}
+
+.nosotrosText {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.iconosSection {
+    background-color: #334257;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.parrafoIconos {
+    color:#EEEEEE;
+}
+
+.serviciosBG {
+    background-color: #334257;
+}
+
+.serviciosSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#EEEEEE;
+}
+
+.serviciosText {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.serviciosLista {
+    padding: 35px 20px;
+    text-align: center;
+    color: #EEEEEE;
+    list-style: none;
+}
+.serviciosLista > li {
+    padding: 2px 0px;
+}
+
+.logosBG {
+    background-color: #334257;
+}
+
+.logoItem {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.LogosSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerSection {
+    color: #EEEEEE;
+    background-color: #476072;
+}
+
+.footerItems {
+    padding-top: 35px;
+    padding-bottom: 0px;
+}
+
+.contactoLista {
+    padding: 35px 20px;
+    text-align: center;
+    color: #EEEEEE;
+    list-style: none;
+}
+.contactoLista > li {
+    padding: 2px 0px;
+}
+
+.redesLista {
+    padding: 35px 20px;
+    text-align: center;
+    color: #EEEEEE;
+    list-style: none;
+}
+.redesLista > li {
+    padding: 2px 0px;
+}
+
+.redesItem a {
+    text-decoration: none;
+    color: #EEEEEE;
+}
+.redesItem a:hover {
+    color: #334257;
+    text-shadow: 1.5px 1px #476072;
+}
+.redesItem {
+    padding-bottom: 5px;
+}
+
+.formContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background-color: rgba(0,0,0,0.6);
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+}
+
+.formCostume {
+    padding-top: 20px;
+}
+
+.centradoForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloTrabaja {
+    color: #EEEEEE;
+}
+
+.form-label {
+    color: #EEEEEE;
+}
+
+.tituloContacto {
+    color: #EEEEEE;
+}
+
+.formCostumeContacto {
+    padding-top: 20px;
+}
+
+.formContacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2vh;
+}
+
+.content {
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+}

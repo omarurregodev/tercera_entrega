@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+/* VARIABLES */
+main h2 {
+  color: #EEEEEE;
+  align-items: center;
+  justify-content: center; }
+
+main p {
+  color: #EEEEEE; }
+
+.titleG {
+  color: #EEEEEE; }
+
+.titleM {
+  color: #1a2e3b; }
+
+/* PAGINAS */
+.bodyBG {
+  background-image: url("../img/index_img.jpg"); }
+
+header .navbar {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4); }
+
+header .navbar-custom {
+  background-color: #548CA8; }
+
+header .navbar-light .navbar-nav .nav-link {
+  color: #EEEEEE;
+  font-weight: 450;
+  padding-bottom: auto;
+  padding-top: auto; }
+  header .navbar-light .navbar-nav .nav-link:hover {
+    color: #334257;
+    text-shadow: 1.5px 1px #476072; }
+
+main .homeTitle .homeTextContainer {
+  display: flex;
+  height: 75vh;
+  background-color: rgba(210, 230, 230, 0.6);
+  align-items: center;
+  justify-content: center; }
+
+main .homeTitle div .textoHome {
+  padding-left: 15vh;
+  padding-right: 15vh;
+  font-weight: bold;
+  color: #334257;
+  margin: 0 auto; }
+
+main .nosotrosBG {
+  background-color: #334257; }
+  main .nosotrosBG .nosotrosSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #EEEEEE; }
+  main .nosotrosBG .nosotrosText {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+
+main .iconosSection {
+  background-color: #334257;
+  padding-top: 25px;
+  padding-bottom: 25px; }
+  main .iconosSection .parrafoIconos {
+    color: #EEEEEE; }
+
+main .serviciosBG {
+  background-color: #334257; }
+  main .serviciosBG .serviciosSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #EEEEEE; }
+  main .serviciosBG .serviciosText {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  main .serviciosBG .serviciosLista {
+    padding: 35px 20px;
+    text-align: center;
+    color: #EEEEEE;
+    list-style: none; }
+    main .serviciosBG .serviciosLista li {
+      padding: 2px 0px; }
+
+main .logosBG {
+  background-color: #334257; }
+  main .logosBG .logoItem {
+    padding-top: 25px;
+    padding-bottom: 25px; }
+  main .logosBG .LogosSection {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+footer .footerSection {
+  color: #EEEEEE;
+  background-color: #476072; }
+  footer .footerSection .footerItems {
+    padding-top: 35px;
+    padding-bottom: 0px; }
+    footer .footerSection .footerItems .contactoLista {
+      padding: 35px 20px;
+      text-align: center;
+      color: #EEEEEE;
+      list-style: none; }
+    footer .footerSection .footerItems .contactoLista > li {
+      padding: 2px 0px; }
+    footer .footerSection .footerItems .redesLista {
+      padding: 35px 20px;
+      text-align: center;
+      color: #EEEEEE;
+      list-style: none; }
+    footer .footerSection .footerItems .redesLista > li {
+      padding: 2px 0px; }
+    footer .footerSection .footerItems .redesItem a {
+      text-decoration: none;
+      color: #EEEEEE; }
+      footer .footerSection .footerItems .redesItem a:hover {
+        color: #334257;
+        text-shadow: 1.5px 1px #476072; }
+    footer .footerSection .footerItems .redesItem {
+      padding-bottom: 5px; }
+
+.bodyBG {
+  background-image: url("../img/index_img.jpg"); }
+
+section .formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-top: 15vh;
+  padding-bottom: 10vh; }
+  section .formContainer div .centradoForm {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  section .formContainer div div .tituloTrabaja {
+    color: #EEEEEE; }
+  section .formContainer div div .formCostume {
+    padding-top: 20px; }
+    section .formContainer div div .formCostume div .form-label {
+      color: #EEEEEE; }
+
+.bodyBG {
+  background-image: url("../img/index_img.jpg"); }
+
+section .formContainer div .content {
+  padding-top: 5vh;
+  padding-bottom: 10vh; }
+
+section .formContainer div div div div .tituloContacto {
+  color: #EEEEEE; }
+
+section .formContainer div div div .formContacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2vh; }
+  section .formContainer div div div .formContacto .formCostumeContacto {
+    padding-top: 20px; }

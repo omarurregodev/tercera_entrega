@@ -1,0 +1,9 @@
+1. Agregue SASS a todas las páginas de mi proyecto.
+2. Agregue la carpeta “variables”, junto con los archivos: colores, extend, maps y mixin. Aplique estos conceptos a clases puntuales, en donde el uso de estos fue sencillo y directo.
+3. Agregue placeholders a los formularios, por observación de mi tutor en la entrega pasada.
+4. Agregue etiqueta meta para index con las siguientes keywords: "desarrollo web, analisis de informacion, bootstrap, interface de usuario, plataforma web, Bootstrap, CSS, SASS, Diseño, aplicativo web"
+5. Agregue etiqueta meta para Contacto con las siguientes keyword: "desarrollo web, analisis de informacion, portal web, interface de usuario, plataforma web, Bootstrap, ventas, cotizaciones, solicitudes, contacto, informacion"
+6. Agregue etiqueta meta para Trabaja con Nosotros con las siguientes keyword: "desarrollo web, analisis de informacion, portal web, interface de usuario, plataforma web, desarrollador, trabajo, aplicacion, solicitud, vacantes, bootstrap"
+7. El Alt en las imagenes esta aplicado desde un inicio, entrega 1 del proyecto. 
+8. Agregue etiqueta meta con descripcion de la pagina.
+9. Agregue el logo a la pestana del navegador, asi mismo, la pleca, para que el usuario tenga una mejor navegacion y sepa en que parte de la pagina se encuentra.
