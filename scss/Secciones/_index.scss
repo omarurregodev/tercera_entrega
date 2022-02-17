@@ -49,8 +49,12 @@ main {
 
     p {
         @extend %generalParrafos;
+        padding-top: 2vh;
     }
-
+    .nosotrosTitulo {
+        width: max-content;
+        margin: 0 auto;
+    }
     .nosotrosBG {
         background-color: $azul_oscuro;
         .nosotrosSection {  
@@ -74,7 +78,10 @@ main {
             color:$blanco;
         }
     }
-
+    .serviciosTitulo {
+        width: max-content;
+        margin: 0 auto;
+    }
     .serviciosBG {
         background-color: $azul_oscuro;
         .serviciosSection {
@@ -113,6 +120,40 @@ main {
             align-items: center;
             justify-content: center;
         }
+    }
+
+
+    /* ANIMACIONES, GRADIENTES Y TRANSFORMACIONES */
+
+    .itemImg:hover {   
+        transform: scale(1.2) rotateY(180deg);
+        transition-duration: 3s;
+    }
+    .logoImg:hover {
+        transform: scale(1.1);
+        transition-duration: 2s;
+    }
+    .nosotrosTitulo:hover {
+        animation: borderBottom 3s;
+        transform: scale(1.1);
+        transition-duration: 3s;
+    }
+    @keyframes borderBottom {
+        100% {
+            border-bottom: 2px solid #EEEEEE; 
+        }
+    
+    }
+    .serviciosTitulo:hover {
+        animation: borderBottom 3s;
+        transform: scale(1.1);
+        transition-duration: 3s;
+    }
+    @keyframes borderBottom {
+        100% {
+            border-bottom: 2px solid #EEEEEE; 
+        }
+    
     }
 
 }

@@ -22,6 +22,8 @@ section {
             div {
                 .tituloTrabaja {
                     color: $blanco;
+                    width: max-content;
+                    margin: 0 auto;
                 }
                 .formCostume {
                     padding-top: 20px;
@@ -31,6 +33,18 @@ section {
                             color: $blanco;
                         }
                     }
+                }
+                /* ANIMACIONES, GRADIENTES Y TRANSFORMACIONES */
+                .tituloTrabaja:hover {
+                    animation: borderBottom 3s;
+                    transform: scale(1.1);
+                    transition-duration: 3s;
+                }
+                @keyframes borderBottom {
+                    100% {
+                        border-bottom: 2px solid #EEEEEE; 
+                    }
+                
                 }
             }
         }

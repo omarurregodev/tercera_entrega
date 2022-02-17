@@ -37,65 +37,92 @@ header .navbar-light .navbar-nav .nav-link {
     color: #334257;
     text-shadow: 1.5px 1px #476072; }
 
-main .homeTitle .homeTextContainer {
-  display: flex;
-  height: 75vh;
-  background-color: rgba(210, 230, 230, 0.6);
-  align-items: center;
-  justify-content: center; }
-
-main .homeTitle div .textoHome {
-  padding-left: 15vh;
-  padding-right: 15vh;
-  font-weight: bold;
-  color: #334257;
-  margin: 0 auto; }
-
-main .nosotrosBG {
-  background-color: #334257; }
-  main .nosotrosBG .nosotrosSection {
+main {
+  /* ANIMACIONES, GRADIENTES Y TRANSFORMACIONES */ }
+  main .homeTitle .homeTextContainer {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #EEEEEE; }
-  main .nosotrosBG .nosotrosText {
-    padding-top: 20px;
-    padding-bottom: 20px; }
-
-main .iconosSection {
-  background-color: #334257;
-  padding-top: 25px;
-  padding-bottom: 25px; }
-  main .iconosSection .parrafoIconos {
-    color: #EEEEEE; }
-
-main .serviciosBG {
-  background-color: #334257; }
-  main .serviciosBG .serviciosSection {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #EEEEEE; }
-  main .serviciosBG .serviciosText {
-    padding-top: 20px;
-    padding-bottom: 20px; }
-  main .serviciosBG .serviciosLista {
-    padding: 35px 20px;
-    text-align: center;
-    color: #EEEEEE;
-    list-style: none; }
-    main .serviciosBG .serviciosLista li {
-      padding: 2px 0px; }
-
-main .logosBG {
-  background-color: #334257; }
-  main .logosBG .logoItem {
-    padding-top: 25px;
-    padding-bottom: 25px; }
-  main .logosBG .LogosSection {
-    display: flex;
+    height: 75vh;
+    background-color: rgba(210, 230, 230, 0.6);
     align-items: center;
     justify-content: center; }
+  main .homeTitle div .textoHome {
+    padding-left: 15vh;
+    padding-right: 15vh;
+    font-weight: bold;
+    color: #334257;
+    margin: 0 auto; }
+  main p {
+    padding-top: 2vh; }
+  main .nosotrosTitulo {
+    width: max-content;
+    margin: 0 auto; }
+  main .nosotrosBG {
+    background-color: #334257; }
+    main .nosotrosBG .nosotrosSection {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #EEEEEE; }
+    main .nosotrosBG .nosotrosText {
+      padding-top: 20px;
+      padding-bottom: 20px; }
+  main .iconosSection {
+    background-color: #334257;
+    padding-top: 25px;
+    padding-bottom: 25px; }
+    main .iconosSection .parrafoIconos {
+      color: #EEEEEE; }
+  main .serviciosTitulo {
+    width: max-content;
+    margin: 0 auto; }
+  main .serviciosBG {
+    background-color: #334257; }
+    main .serviciosBG .serviciosSection {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #EEEEEE; }
+    main .serviciosBG .serviciosText {
+      padding-top: 20px;
+      padding-bottom: 20px; }
+    main .serviciosBG .serviciosLista {
+      padding: 35px 20px;
+      text-align: center;
+      color: #EEEEEE;
+      list-style: none; }
+      main .serviciosBG .serviciosLista li {
+        padding: 2px 0px; }
+  main .logosBG {
+    background-color: #334257; }
+    main .logosBG .logoItem {
+      padding-top: 25px;
+      padding-bottom: 25px; }
+    main .logosBG .LogosSection {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+  main .itemImg:hover {
+    transform: scale(1.2) rotateY(180deg);
+    transition-duration: 3s; }
+  main .logoImg:hover {
+    transform: scale(1.1);
+    transition-duration: 2s; }
+  main .nosotrosTitulo:hover {
+    animation: borderBottom 3s;
+    transform: scale(1.1);
+    transition-duration: 3s; }
+
+@keyframes borderBottom {
+  100% {
+    border-bottom: 2px solid #EEEEEE; } }
+  main .serviciosTitulo:hover {
+    animation: borderBottom 3s;
+    transform: scale(1.1);
+    transition-duration: 3s; }
+
+@keyframes borderBottom {
+  100% {
+    border-bottom: 2px solid #EEEEEE; } }
 
 footer .footerSection {
   color: #EEEEEE;
@@ -141,12 +168,24 @@ section .formContainer {
     display: flex;
     align-items: center;
     justify-content: center; }
-  section .formContainer div div .tituloTrabaja {
-    color: #EEEEEE; }
-  section .formContainer div div .formCostume {
-    padding-top: 20px; }
-    section .formContainer div div .formCostume div .form-label {
-      color: #EEEEEE; }
+  section .formContainer div div {
+    /* ANIMACIONES, GRADIENTES Y TRANSFORMACIONES */ }
+    section .formContainer div div .tituloTrabaja {
+      color: #EEEEEE;
+      width: max-content;
+      margin: 0 auto; }
+    section .formContainer div div .formCostume {
+      padding-top: 20px; }
+      section .formContainer div div .formCostume div .form-label {
+        color: #EEEEEE; }
+    section .formContainer div div .tituloTrabaja:hover {
+      animation: borderBottom 3s;
+      transform: scale(1.1);
+      transition-duration: 3s; }
+
+@keyframes borderBottom {
+  100% {
+    border-bottom: 2px solid #EEEEEE; } }
 
 .bodyBG {
   background-image: url("../img/index_img.jpg"); }
@@ -155,8 +194,20 @@ section .formContainer div .content {
   padding-top: 5vh;
   padding-bottom: 10vh; }
 
-section .formContainer div div div div .tituloContacto {
-  color: #EEEEEE; }
+section .formContainer div div div div {
+  /* ANIMACIONES, GRADIENTES Y TRANSFORMACIONES */ }
+  section .formContainer div div div div .tituloContacto {
+    color: #EEEEEE;
+    width: max-content;
+    margin: 0 auto; }
+  section .formContainer div div div div .tituloContacto:hover {
+    animation: borderBottom 3s;
+    transform: scale(1.1);
+    transition-duration: 3s; }
+
+@keyframes borderBottom {
+  100% {
+    border-bottom: 2px solid #EEEEEE; } }
 
 section .formContainer div div div .formContacto {
   display: flex;
